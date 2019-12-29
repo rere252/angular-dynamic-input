@@ -1,12 +1,19 @@
 {
   "name": "angular-dynamic-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
-  "main": "dynamic.decorator.ts",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "repository": "rere252/angular-dynamic-input",
   "keywords": [
     "angular",
     "input",
     "dynamic"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
 }
